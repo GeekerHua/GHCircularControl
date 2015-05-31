@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBC5DAF31B19418C007BB53A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC5DAF21B19418C007BB53A /* main.m */; };
+		CBC5DAF61B19418C007BB53A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC5DAF51B19418C007BB53A /* AppDelegate.m */; };
+		CBC5DAF91B19418C007BB53A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC5DAF81B19418C007BB53A /* ViewController.m */; };
+		CBC5DAFC1B19418C007BB53A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC5DAFA1B19418C007BB53A /* Main.storyboard */; };
+		CBC5DAFE1B19418C007BB53A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC5DAFD1B19418C007BB53A /* Images.xcassets */; };
+		CBC5DB011B19418C007BB53A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBC5DAFF1B19418C007BB53A /* LaunchScreen.xib */; };
+		CBC5DB0D1B19418C007BB53A /* GHCircularControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC5DB0C1B19418C007BB53A /* GHCircularControlTests.m */; };
+		CBC5DB181B19419E007BB53A /* GHCircularControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC5DB171B19419D007BB53A /* GHCircularControl.m */; };
+		CBC5DB1A1B194F50007BB53A /* tuoyuan.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC5DB191B194F50007BB53A /* tuoyuan.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBC5DB071B19418C007BB53A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBC5DAE51B19418B007BB53A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBC5DAEC1B19418C007BB53A;
+			remoteInfo = GHCircularControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBC5DAED1B19418C007BB53A /* GHCircularControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHCircularControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC5DAF11B19418C007BB53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC5DAF21B19418C007BB53A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBC5DAF41B19418C007BB53A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBC5DAF51B19418C007BB53A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBC5DAF71B19418C007BB53A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBC5DAF81B19418C007BB53A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBC5DAFB1B19418C007BB53A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBC5DAFD1B19418C007BB53A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBC5DB001B19418C007BB53A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CBC5DB061B19418C007BB53A /* GHCircularControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHCircularControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC5DB0B1B19418C007BB53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC5DB0C1B19418C007BB53A /* GHCircularControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHCircularControlTests.m; sourceTree = "<group>"; };
+		CBC5DB161B19419D007BB53A /* GHCircularControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHCircularControl.h; sourceTree = "<group>"; };
+		CBC5DB171B19419D007BB53A /* GHCircularControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHCircularControl.m; sourceTree = "<group>"; };
+		CBC5DB191B194F50007BB53A /* tuoyuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tuoyuan.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBC5DAEA1B19418C007BB53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC5DB031B19418C007BB53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBC5DAE41B19418B007BB53A = {
+			isa = PBXGroup;
+			children = (
+				CBC5DAEF1B19418C007BB53A /* GHCircularControl */,
+				CBC5DB091B19418C007BB53A /* GHCircularControlTests */,
+				CBC5DAEE1B19418C007BB53A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBC5DAEE1B19418C007BB53A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBC5DAED1B19418C007BB53A /* GHCircularControl.app */,
+				CBC5DB061B19418C007BB53A /* GHCircularControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBC5DAEF1B19418C007BB53A /* GHCircularControl */ = {
+			isa = PBXGroup;
+			children = (
+				CBC5DB161B19419D007BB53A /* GHCircularControl.h */,
+				CBC5DB171B19419D007BB53A /* GHCircularControl.m */,
+				CBC5DAF41B19418C007BB53A /* AppDelegate.h */,
+				CBC5DAF51B19418C007BB53A /* AppDelegate.m */,
+				CBC5DAF71B19418C007BB53A /* ViewController.h */,
+				CBC5DAF81B19418C007BB53A /* ViewController.m */,
+				CBC5DAFA1B19418C007BB53A /* Main.storyboard */,
+				CBC5DAFD1B19418C007BB53A /* Images.xcassets */,
+				CBC5DB191B194F50007BB53A /* tuoyuan.png */,
+				CBC5DAFF1B19418C007BB53A /* LaunchScreen.xib */,
+				CBC5DAF01B19418C007BB53A /* Supporting Files */,
+			);
+			path = GHCircularControl;
+			sourceTree = "<group>";
+		};
+		CBC5DAF01B19418C007BB53A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBC5DAF11B19418C007BB53A /* Info.plist */,
+				CBC5DAF21B19418C007BB53A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBC5DB091B19418C007BB53A /* GHCircularControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBC5DB0C1B19418C007BB53A /* GHCircularControlTests.m */,
+				CBC5DB0A1B19418C007BB53A /* Supporting Files */,
+			);
+			path = GHCircularControlTests;
+			sourceTree = "<group>";
+		};
+		CBC5DB0A1B19418C007BB53A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBC5DB0B1B19418C007BB53A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBC5DAEC1B19418C007BB53A /* GHCircularControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC5DB101B19418C007BB53A /* Build configuration list for PBXNativeTarget "GHCircularControl" */;
+			buildPhases = (
+				CBC5DAE91B19418C007BB53A /* Sources */,
+				CBC5DAEA1B19418C007BB53A /* Frameworks */,
+				CBC5DAEB1B19418C007BB53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHCircularControl;
+			productName = GHCircularControl;
+			productReference = CBC5DAED1B19418C007BB53A /* GHCircularControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBC5DB051B19418C007BB53A /* GHCircularControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC5DB131B19418C007BB53A /* Build configuration list for PBXNativeTarget "GHCircularControlTests" */;
+			buildPhases = (
+				CBC5DB021B19418C007BB53A /* Sources */,
+				CBC5DB031B19418C007BB53A /* Frameworks */,
+				CBC5DB041B19418C007BB53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBC5DB081B19418C007BB53A /* PBXTargetDependency */,
+			);
+			name = GHCircularControlTests;
+			productName = GHCircularControlTests;
+			productReference = CBC5DB061B19418C007BB53A /* GHCircularControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBC5DAE51B19418B007BB53A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = GeekerHua;
+				TargetAttributes = {
+					CBC5DAEC1B19418C007BB53A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					CBC5DB051B19418C007BB53A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = CBC5DAEC1B19418C007BB53A;
+					};
+				};
+			};
+			buildConfigurationList = CBC5DAE81B19418B007BB53A /* Build configuration list for PBXProject "GHCircularControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBC5DAE41B19418B007BB53A;
+			productRefGroup = CBC5DAEE1B19418C007BB53A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBC5DAEC1B19418C007BB53A /* GHCircularControl */,
+				CBC5DB051B19418C007BB53A /* GHCircularControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBC5DAEB1B19418C007BB53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC5DAFC1B19418C007BB53A /* Main.storyboard in Resources */,
+				CBC5DB011B19418C007BB53A /* LaunchScreen.xib in Resources */,
+				CBC5DAFE1B19418C007BB53A /* Images.xcassets in Resources */,
+				CBC5DB1A1B194F50007BB53A /* tuoyuan.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC5DB041B19418C007BB53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBC5DAE91B19418C007BB53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC5DAF91B19418C007BB53A /* ViewController.m in Sources */,
+				CBC5DAF61B19418C007BB53A /* AppDelegate.m in Sources */,
+				CBC5DAF31B19418C007BB53A /* main.m in Sources */,
+				CBC5DB181B19419E007BB53A /* GHCircularControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC5DB021B19418C007BB53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC5DB0D1B19418C007BB53A /* GHCircularControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBC5DB081B19418C007BB53A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBC5DAEC1B19418C007BB53A /* GHCircularControl */;
+			targetProxy = CBC5DB071B19418C007BB53A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBC5DAFA1B19418C007BB53A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBC5DAFB1B19418C007BB53A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBC5DAFF1B19418C007BB53A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBC5DB001B19418C007BB53A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBC5DB0E1B19418C007BB53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBC5DB0F1B19418C007BB53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBC5DB111B19418C007BB53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GHCircularControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBC5DB121B19418C007BB53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GHCircularControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBC5DB141B19418C007BB53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GHCircularControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHCircularControl.app/GHCircularControl";
+			};
+			name = Debug;
+		};
+		CBC5DB151B19418C007BB53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GHCircularControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GHCircularControl.app/GHCircularControl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBC5DAE81B19418B007BB53A /* Build configuration list for PBXProject "GHCircularControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC5DB0E1B19418C007BB53A /* Debug */,
+				CBC5DB0F1B19418C007BB53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBC5DB101B19418C007BB53A /* Build configuration list for PBXNativeTarget "GHCircularControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC5DB111B19418C007BB53A /* Debug */,
+				CBC5DB121B19418C007BB53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBC5DB131B19418C007BB53A /* Build configuration list for PBXNativeTarget "GHCircularControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC5DB141B19418C007BB53A /* Debug */,
+				CBC5DB151B19418C007BB53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBC5DAE51B19418B007BB53A /* Project object */;
+}
